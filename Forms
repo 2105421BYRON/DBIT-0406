@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><title>FORMS</title></head>
+<body>
+<h3>Forms</h3>
+<form method="post" action="save.html">
+<label>First Name</label>
+<input type="text" name="fname" placeholder="First name" />
+<br />
+<label>Last Name</label>
+<input type="text" name="lname" placeholder="last name" />
+ <br />
+<label>Country Code</label><input type="text" name="ccode" placeholder="+254">
+  <label>Phone Number</label>
+<input type="number" name="phoneno" placeholder="701234567" />
+<br />
+<label>Email</label>
+<input type="email" name="email" placeholder="234655@kcau.ac.ke" />
+<br />
+<label>Date of Birth</label>
+<input type="date" name="dob" />
+ <br />
+ <label>Favourite Color</label>
+ <input type="color" name="favcolor" />
+<br />
+ <input type="hidden" name="spy" value="wow they clicked" />
+<br />
+ <label>Input Password</label>
+<input type="password" name="pass" />
+ <br />
+<label>Gender</label>
+ <br />
+Male <input type="radio" name="gender" value="Male" checked/>
+Female <input type="radio" name="gender" value="Female" />
+ Others <input type="radio" name="gender" value="Others" />
+ <br />
+<label>Units</label>
+<br />
+Internet Application Programming <input type="checkbox" name="IAP" value="IAP" checked/>
+<br />
+C Programming <input type="checkbox" name="C" value="C" />
+<br />
+Java Programming <input type="checkbox" name="JP" value="JP" />
+ <br />
+<input type="reset" value="Reset/Clear" name="reset" />
+<input type="submit" value="Submit" />
+<br />
+ </form>
+</body>
+</html>
